@@ -10,6 +10,7 @@ class DataProcessor:
         self.df = pd.DataFrame()
 
     def extract_data(self):
+        # @todo: It would be cool to add the functionality here so that it doesn't matter whether you input a CSV or a JSON file, the method can just deal with both.
         return Extractor.Extractor.fromCSV(self.file_name)
 
     def load_data(self, csv_file_name):

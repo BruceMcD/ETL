@@ -14,3 +14,5 @@ class Extractor:
         data = pd.read_csv(file_path)
         data.columns = data.columns.astype(str)
         return data
+
+    # @todo, add fromJson, although none of my data is JSON.

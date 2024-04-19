@@ -3,7 +3,7 @@ from typing import List
 import pandas as pd
 from pandas.core.groupby import DataFrameGroupBy
 
-
+# @todo, add a method that uses map or reduce etc just so I've covered it somwhere. An exmaple of doing this with Pandas can be found at this youtube Link: https://www.youtube.com/watch?v=uqRRjcsUGgk
 class Transformer:
     @staticmethod
     def change_header_names(data: pd.DataFrame, column_names: dict) -> pd.DataFrame:
